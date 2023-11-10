@@ -59,11 +59,6 @@ def main():
                 else:
                     DISPLAYSURF.set_at((a, b), color(result))
             a += 1
-            #print(round(a * 100 / WIDTH, 1),"%")
-        elif __name__ != "__main__":
-            # pygame.event.post(pygame.event.Event(pygame.QUIT))
-            pygame.quit()
-            return None
 
         for event in pygame.event.get():
             if event.type == QUIT:
